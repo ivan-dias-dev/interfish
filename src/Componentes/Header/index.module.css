@@ -1,0 +1,53 @@
+:root {
+    --azul-marinho: #1d3557;
+    --dourado: #ffc107;
+    --cinza-claro: #f4f4f9;
+    --cinza-escuro: #333333;
+    --verde-esmeralda: #2a9d8f;
+}
+
+.main {
+    background-color: transparent;
+    color: #ffffff;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(29, 53, 87, 0.5)
+}
+
+.secaoPai {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 15%;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li {
+    margin: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #e8e8e8;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: var(--verde-esmeralda);
+}
+
+h1:hover {
+    color: var(--verde-esmeralda);
+    cursor: pointer;
+}

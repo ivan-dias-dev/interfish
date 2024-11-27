@@ -1,0 +1,70 @@
+.main {
+    background-color: #FFC107;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    padding: 2em 0;
+
+    .secaoPai {
+        width: 80%;
+        text-align: start;
+
+
+        h1 {
+            color: #333333;
+        }
+
+        button {
+            color: #333333;
+            background-color: #FFC107;
+        }
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+li {
+    color: #333333;
+    list-style: none;
+}
+
+.serviceList {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    gap: 1.5rem;
+}
+
+.serviceItem {
+    background-color: var(--cinza-claro);
+    color: var(--azul-marinho);
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.serviceItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    margin-bottom: 0.5rem;
+    color: var(--dourado);
+}
+
+img {
+    width: 3em;
+}
