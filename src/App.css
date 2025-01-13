@@ -5,6 +5,15 @@
   width: 100%;
   text-align: center;
 }
+:root {
+  --azul-marinho: #1d3557;
+  --laranja: #fd7538;
+  --laranjaHover: #f8480a;
+  --cinza-claro: #edf2f4;
+  --cinza-escuro: #333333;
+  --verde-esmeralda: #2a9d8f;
+  --branco: #f1faee;
+}
 
 .logo {
   height: 6em;

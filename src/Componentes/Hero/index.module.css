@@ -1,41 +1,68 @@
 .hero {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.main {
+.img {
+  width: 20em;
+  animation-name: camaraoMovendo;
+  position: relative;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function:ease-in-out
+}
 
-    width: 80%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5em;
-    padding: 2em 0;
+@keyframes camaraoMovendo {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(15px, 15px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  75% {
+    transform: translate(-15px, 15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+
+.main {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5em;
+  padding: 2em 0;
 }
 
 .secaoPai {
-    width: 80%;
-    text-align: start;
+  width: 80%;
+  text-align: start;
 }
 
-.secaoPai>div>button {
-    background-color: #dca910;
-    color: #333333;
+.secaoPai > div > button {
+  background-color: var(--laranja);
+  color: #333333;
 }
 
-.secaoPai>div>button:hover {
-    border: 1px solid var(--dourado);
-    background-color: var(--dourado);
+.secaoPai > div > button:hover {
+  border: 1px solid var(--laranjaHover);
+  background-color: var(--laranjaHover);
 }
 
-.secaoPai>h1 {
-    color: #2A9D8F;
+.secaoPai > h1 {
+  color: #2a9d8f;
 }
 
 p {
-    font-size: 1.5rem
+  font-size: 1.5rem;
 }
