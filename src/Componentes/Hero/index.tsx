@@ -15,7 +15,7 @@ function Hero() {
           <div>
             <img
               className={Style.img}
-              src="../../../public/camarao3.png"
+              src="./public/camarao3.png"
               alt="Balança representando consultoria jurídica"
             />
           </div>
