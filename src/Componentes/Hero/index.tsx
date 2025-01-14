@@ -9,14 +9,14 @@ function Hero() {
             <h1>Os melhores pescados para Curitiba e região!</h1>
             <h2>Qualidade, sabor e excelência em cada entrega.</h2>
             <div>
-              <button>Faça seu pedido agora</button>
+              <button className={Style.button}>Faça seu pedido agora</button>
             </div>
           </div>
           <div>
             <img
               className={Style.img}
-              src="../public/camarao3.png"
-              alt="Balança representando consultoria jurídica"
+              src="/camarao3.png"  // Corrigido o caminho da imagem
+              alt="Camarão fresco"
             />
           </div>
         </div>
