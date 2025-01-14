@@ -8,49 +8,60 @@ function Servicos() {
           <h1 className={Style.title}>Produtos</h1>
           <ul className={Style.itemList}>
             <li className={Style.item}>
-              <strong>Filé de Tilápia</strong>
               <img
                 className={Style.imgItem}
                 src="../../../public/tilapia.jpg"
-                alt="Balança representando consultoria jurídica"
+                alt="Filé de tilápia"
               />
-              <strong>39,90</strong>
+              <div className={Style.p}>
+                <strong>Filé de Tilápia</strong>
+                <p>
+                  Leve, macio e fresco, perfeito para grelhar, assar ou fritar.
+                  Uma escolha prática e saudável para suas refeições.
+                </p>
+              </div>
             </li>
             <li className={Style.item}>
-              <strong>Filé de Tilápia</strong>
               <img
                 className={Style.imgItem}
                 src="../../../public/tilapia.jpg"
-                alt="Balança representando consultoria jurídica"
+                alt="Filé de tilápia"
               />
-              <strong>R$39,90</strong>
+              <div className={Style.p}>
+                <strong>Filé de Tilápia</strong>
+                <p>
+                  Leve, macio e fresco, perfeito para grelhar, assar ou fritar.
+                  Uma escolha prática e saudável para suas refeições.
+                </p>
+              </div>
             </li>
             <li className={Style.item}>
-              <strong>Filé de Tilápia</strong>
               <img
                 className={Style.imgItem}
                 src="../../../public/tilapia.jpg"
-                alt="Balança representando consultoria jurídica"
+                alt="Filé de tilápia"
               />
-              <strong>R$39,90</strong>
+              <div className={Style.p}>
+                <strong>Filé de Tilápia</strong>
+                <p>
+                  Leve, macio e fresco, perfeito para grelhar, assar ou fritar.
+                  Uma escolha prática e saudável para suas refeições.
+                </p>
+              </div>
             </li>
             <li className={Style.item}>
-              <strong>Filé de Tilápia</strong>
               <img
                 className={Style.imgItem}
                 src="../../../public/tilapia.jpg"
-                alt="Balança representando consultoria jurídica"
+                alt="Filé de tilápia"
               />
-              <strong>R$39,90</strong>
-            </li>
-            <li className={Style.item}>
-              <strong>Filé de Tilápia</strong>
-              <img
-                className={Style.imgItem}
-                src="../../../public/tilapia.jpg"
-                alt="Balança representando consultoria jurídica"
-              />
-              <strong>R$39,90</strong>
+              <div className={Style.p}>
+                <strong>Filé de Tilápia</strong>
+                <p>
+                  Leve, macio e fresco, perfeito para grelhar, assar ou fritar.
+                  Uma escolha prática e saudável para suas refeições.
+                </p>
+              </div>
             </li>
           </ul>
         </div>
